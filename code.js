@@ -1,4 +1,5 @@
 function mergesort(arr) {
+    if (arr.length <= 1) return arr
 
     let array = arr.map((element) => [element])
 
